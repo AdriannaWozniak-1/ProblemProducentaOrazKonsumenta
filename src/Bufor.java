@@ -1,6 +1,6 @@
 class Bufor {
     private final int[] bufor;
-    private final int pojemnosc = 5; //ile elementów jest w stanie przechować bufor
+    private final int pojemnosc = 5; //ilość elementów jakie w stanie przechować bufor
     private int rozmiar = 0; //akualny rozmiar bufora
     private int indeksDodawania = 0;
     private int indeksPobierania = 0;
