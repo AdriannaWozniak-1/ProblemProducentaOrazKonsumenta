@@ -13,7 +13,7 @@ class Producent implements Runnable {
         try {
             for (int i = 1; i <= 10; i++) {
                 bufor.dodaj(i);
-                Thread.sleep(liczbaWylosowana); //symulacjaowanie przetwarzania danych
+                Thread.sleep(liczbaWylosowana); //symulowanie przetwarzania danych
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
