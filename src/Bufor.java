@@ -9,7 +9,7 @@ class Bufor {
         this.bufor = new int[pojemnosc];
     }
 
-    public void dodaj(int wartosc) throws InterruptedException { //bez throws jest błąd przy wait
+    public void dodaj(int wartosc) throws InterruptedException {
         synchronized (this) {
             while (rozmiar == pojemnosc) {
                 wait();
