@@ -1,5 +1,7 @@
 # Problem prodcenta i konsumenta / Producer–consumer problem
 
-Ćwiczenie problemu synchronizacji w języku java.
+Ćwiczenie problemu synchronizacji w języku Java.
 
-Bounded-buffer problem in java programming language.
+---
+
+Bounded-buffer problem in Java programming language.
