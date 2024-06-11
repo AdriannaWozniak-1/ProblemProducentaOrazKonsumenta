@@ -16,7 +16,7 @@ class Bufor {
             }
             bufor[indeksDodawania] = wartosc;
             indeksDodawania = (indeksDodawania + 1) % pojemnosc;
-            //by aktualizować indeks dodawania elementu do bufora
+            //aktualizowanie indeks dodawania elementu do bufora
             rozmiar++;
             System.out.println("Producent dodaje element nr: " + wartosc);
             notify();
